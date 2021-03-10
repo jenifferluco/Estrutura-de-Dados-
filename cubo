@@ -1,0 +1,48 @@
+/* Faça um programa que leia um numero real e escreva seu cubo 
+cbo é um numero * numero*numero
+
+*/
+
+#include<stdio.h>
+#include<conio.h>
+#include<locale.h>
+
+  int main() {
+    setlocale(LC_ALL,"Portuguese");
+float n1,resultado;
+
+
+printf("digite o numero ");
+// precisa que salve o n1 utilizando &n1
+scanf("%f", &n1);
+
+
+//atribuição de dados 
+resultado=(n1*n1*n1);
+
+
+// caso eu queira casa depois da virgula %.2f
+printf("é a media de dois numeros digitados é %.2f",resultado);
+
+  
+    getch();
+    return 0;
+}
+
+
+/*
+
+#include <math.h> incluindo constant matematicas
+
+float n, cubo; 
+printf("digite o numero ");
+// precisa que salve o n1 utilizando &n1
+scanf("%f", &n);
+cubo(resultado) = pow(n,3)
+
+printf("é a media de dois numeros digitados é %.2f",n, cubo);
+
+
+
+
+*/
