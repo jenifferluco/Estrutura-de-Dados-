@@ -1,0 +1,31 @@
+/* calcule a circuferenca utilizando constant
+c=2*pi*r (variavel c = comprimento)( variavel r = Raio)
+pi=3,14
+*/
+
+#include<stdio.h>
+#include<conio.h>
+#include<locale.h>
+#define PI 3.14
+// PI é uma constante 
+
+  int main() {
+    setlocale(LC_ALL,"Portuguese");
+float c, r;
+//float c, r, PI =3,14; Caso eu não declare como constant, posso declarar como Float
+
+printf("digite o valor do Raio ");
+scanf ("%f", &r); 
+// o uruario digita no printf 
+// scanf onde será arquivado %f é pq é float &r é o endereço da menoria
+
+c=2*PI*r; // esta formula 
+//c=2*3,14*r; // no caso eu posso preencher o valor de PI, caso ele esteja na constant ele sempre
+// chama o mesmo valor
+printf("o comprimento da circunferencia do Raio %.2f é %.2f",r,c);
+// %.2f é o endereço com 2 casas depois da vircula, 
+
+  
+    getch();
+    return 0;
+}
