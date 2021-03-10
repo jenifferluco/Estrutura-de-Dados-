@@ -1,0 +1,29 @@
+// Estrutura-de-Dados-
+// atividades desevolvidas utilizando Dev++
+
+/* Faça um programa que leia o valor em reais e exiba o equivalente em dolar
+considere o dola $,350 */
+
+#include<stdio.h>
+#include<conio.h>
+#include<locale.h>
+
+
+	int main() {
+    setlocale(LC_ALL,"Portuguese");
+float Real, Dolar=3.50, conversao;
+
+
+printf("digite o valor em reais ");
+// precisa que salve o n1 utilizando &n1
+scanf("%f", &Real);
+
+
+conversao=Real*Dolar;
+printf("Dola é igual a  %.2f reais  x cotação  %.2f igual %.2f ", Real, Dolar, conversao );
+
+       
+       getch();
+       return 0;
+}
+
