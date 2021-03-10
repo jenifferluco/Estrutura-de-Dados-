@@ -1,0 +1,33 @@
+# Estrutura-de-Dados-
+atividades desevolvidas  DEV++
+
+/* fAÇA UM  PROGRAMA que leia o salario dos funcionarios e apresente o salario com aumento de 15%
+salario =100
+salaum =115*/
+
+#include<stdio.h>
+#include<conio.h>
+#include<locale.h>
+
+
+       
+       int main() {
+    setlocale(LC_ALL,"Portuguese");
+    
+float Salario, Aumento;
+
+
+printf("digite o valor do seu salario ");
+// precisa que salve o n1 utilizando &n1
+scanf("%f", &Salario);
+
+Aumento=Salario*1.15;
+//100% salario sem aumento + 15% aumento que é igua 115% 115/100=1.15
+
+
+printf("o Salario com aumento de 15%%  é R$ %.2f  " , Aumento);
+
+  
+    getch();
+    return 0;
+}
