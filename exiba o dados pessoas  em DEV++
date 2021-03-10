@@ -1,0 +1,15 @@
+/* */
+
+#include<stdio.h>
+#include<conio.h>
+#include<locale.h>
+
+int main() {
+	setlocale(LC_ALL,"Portuguese");
+printf("Jeniffer  Luco\n");
+printf("xxxx, 35\n");
+printf("CEP 08558-00 vila varela");     
+	getch();
+ 	return 0;
+}
+
