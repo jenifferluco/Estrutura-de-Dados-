@@ -1,0 +1,34 @@
+/* Faça um programa que leia tres numeros reais e exiba o tripo da sua soma*/
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<locale.h>
+
+  int main() {
+    setlocale(LC_ALL,"Portuguese");
+int n1, n2, n3, soma ;
+
+
+printf("digite a primeiro numero ");
+// precisa que salve o n1 utilizando &n1
+scanf("%d", &n1);
+
+
+printf("digite segundo numero ");
+scanf("%d", &n2);
+
+printf("digite terceiro numero ");
+scanf("%d", &n3);
+
+
+//atribuição de dados 
+
+soma=(n1+n2+n3)*3;
+printf("soma de tres numeros e exiba o tripo da soma  %d e %d e %d e %d ", n1, n2, n3, soma );
+
+  
+    getch();
+    return 0;
+    
+	}
